@@ -7,7 +7,7 @@ import icon_2 from "../assets/fi_7857923.png";
 import icon_3 from "../assets/ranking 1.png";
 import icon_4 from "../assets/fi_7857952.png";
 import icon_5 from "../assets/fi_3131489.png";
-import man_image from "../assets/Main Image.png";
+import man_image from "../assets/Image.png";
 import man_handShake from "../assets/Factory Image.png";
 import map from "../assets/Photo Image.png";
 import {
@@ -21,7 +21,7 @@ import {
 export default function Home() {
   return (
     <>
-      <div className=" relative -top-[110px]  bg-[url('/assets/image.png')] bg-cover bg-center bg-no-repeat  h-[600px] z-0">
+      <div className=" relative -top-[110px]  bg-[url('/assets/Image.png')] bg-cover bg-center bg-no-repeat  h-[600px] z-0">
         <div className=" w-full absolute -bottom-0 flex items-center justify-center mx-auto ">
           <div className=" w-[1170px] h-[90px] flex flex-col it justify-between mb-10 ">
             <ul className="w-full flex flex-row items-center gap-6 pl-4 text-white text-xl ">
