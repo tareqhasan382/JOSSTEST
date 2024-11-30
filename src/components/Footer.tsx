@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { FaFacebook, FaLinkedin, FaXTwitter } from "react-icons/fa6";
-
 const Footer = () => {
   return (
     <footer className="  h-[395px] bg-black text-white flex items-center justify-center mx-auto ">

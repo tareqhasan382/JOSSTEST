@@ -3,7 +3,7 @@ import mission_image from "../../assets/mission-group.png";
 import light_image from "../../assets/Image 2.png";
 import small_image from "../../assets/mission-small.png";
 import Image from "next/image";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 const Mission = () => {
   //  w-[1440px]
   return (
