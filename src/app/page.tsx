@@ -9,7 +9,6 @@ import icon_4 from "../assets/fi_7857952.png";
 import icon_5 from "../assets/fi_3131489.png";
 import man_image from "../assets/Image.png";
 import man_handShake from "../assets/Factory Image.png";
-import map from "../assets/Photo Image.png";
 import {
   ArrowLeft,
   ArrowRight,
@@ -315,14 +314,16 @@ export default function Home() {
       <div className="relative -top-[110px] w-full h-[700px] bg-[#EEEDE9] flex items-center justify-center ">
         <div className=" w-full flex items-center justify-center gap-20 ">
           <div className=" w-[500px] h-[600px] ">
-            <Image
-              src={map}
-              width={500}
-              height={600}
-              alt="Man Image"
-              priority
-              className="w-[500px] h-[550px]  "
-            />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3651.217253877975!2d90.4230604747927!3d23.775276787821966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s6th%20Floor%2C%20Icon%20Center%2C%2057%2F4%2C%20Progoti%20Shoroni%20Vatara%2C%20Dhaka%201229!5e0!3m2!1sen!2sbd!4v1733027005878!5m2!1sen!2sbd"
+              width="600"
+              height="550"
+              style={{ border: "0" }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-[500px] h-[550px] "
+            ></iframe>
           </div>
           <div className=" w-[500px] h-[600px] flex flex-col items-start gap-8 ">
             <h1 className=" text-4xl font-bold ">
@@ -346,8 +347,11 @@ export default function Home() {
                   <MapPinned className=" text-[#00A5E3]  " />
                   <h1 className=" pl-2 font-bold ">Address:</h1>
                 </div>
-                <p>6th Floor, Icon Center, 57/4</p>
-                <p> Progoti Shoroni Vatara, Dhaka 1229</p>
+                <address>
+                  6th Floor, Icon Center, 57/4
+                  <br />
+                  Progoti Shoroni Vatara, Dhaka 1229
+                </address>
               </div>
               <div className=" pl-2 ">
                 <div className=" w-full flex items-center ">
@@ -361,7 +365,9 @@ export default function Home() {
                   <Phone className=" text-[#00A5E3]  " />
                   <h1 className=" pl-2 font-bold ">Phone:</h1>
                 </div>
-                <p>+880 1888-826300</p>
+                <a href="tel:+8801888826300" className="hover:text-blue-600">
+                  +880 1888-826300
+                </a>
               </div>
             </div>
           </div>

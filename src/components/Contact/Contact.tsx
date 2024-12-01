@@ -50,7 +50,7 @@ const Contact = () => {
               <label htmlFor="message">Your message</label>
               <textarea
                 placeholder="Enter message here"
-                className=" w-[1030px] h-[176px] rounded "
+                className=" w-[1030px] h-[176px] rounded p-2 "
               />
             </div>
           </div>
